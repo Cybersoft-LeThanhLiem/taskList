@@ -6,7 +6,7 @@ const stateDefault = {
 
 export const TaskReducer = (state = stateDefault, action) => {
     switch (action.type) {
-        case 'ADD_TASK': {
+        case 'GET_ALL_TASK': {
 
             return {...state}
         }

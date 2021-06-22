@@ -1,12 +1,11 @@
 import {BrowserRouter, Route, Router, Switch } from 'react-router-dom';
-import taskList from './Pages/taskList';
-
+import TaskList from './Pages/TaskList';
 
 function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" component={taskList} />
+        <Route exact path="/" component={TaskList} />
       </Switch>
     </BrowserRouter>
   );
